@@ -4,7 +4,7 @@ function Todoitem(props){
 
  function handleremove(deleteid){
   const temparr = activity.filter((items)=>{
-    if(items.id == deleteid){
+    if(items.id === deleteid){
         return false
     }
     else{

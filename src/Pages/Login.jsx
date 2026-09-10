@@ -25,7 +25,7 @@ function Login(props){
 
         let userfound = false
         user.forEach((items)=>{
-            if(items.username == eusername & items.pass == epassword){
+            if(items.username === eusername & items.pass === epassword){
                 console.log("login succesfull")
                 userfound = true
                 navigate('/landing',{state:{user:eusername}})

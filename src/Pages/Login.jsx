@@ -33,7 +33,7 @@ function Login(props){
            
         })
 
-        if(userfound == false){
+        if(userfound === false){
             console.log("login failed")
             setisregister(false)
         }
